@@ -42,5 +42,6 @@ if [ "$TARGET_UNIFIED_DEVICE" == "" ] ; then
   echo "ro.build.fingerprint=$BUILD_FINGERPRINT"
 fi
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
+echo "persist.sys.root_access=3"
 
 echo "# end build properties"
